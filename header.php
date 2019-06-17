@@ -34,7 +34,7 @@
 	<header id="masthead" class="site-header">
 		<div class="header-floating-trigger">
 			<div class="header-navigation header-floating">
-				<div class="container-full">
+				<div class="container">
 					<div class="site-header__content">			
 					<?php do_action( 'leto_inside_header' ); ?>
 					</div>

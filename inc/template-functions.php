@@ -78,7 +78,7 @@ function leto_container_type() {
 	if ( class_exists( 'WooCommerce' ) ) {
 		$wc_check = leto_wc_archive_check();
 		if ( $wc_check ) {
-			$container = 'container-full';
+			$container = 'container';
 		} else {
 			$container = 'container';
 		}
