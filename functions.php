@@ -254,13 +254,13 @@ function leto_recommended_plugins() {
 }
 
 /* Orchideya */
-add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
-function sb_woo_remove_reviews_tab($tabs) {
+// add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
+// function sb_woo_remove_reviews_tab($tabs) {
 
-	unset($tabs['reviews']);
+// 	unset($tabs['reviews']);
 
-	return $tabs;
-}
+// 	return $tabs;
+// }
 
 remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );

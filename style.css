@@ -8254,6 +8254,55 @@ object {
 }
 
 
+/* Отступы для страницы товара - похожие товары */
+
+.woocommerce.products, 
+.woocommerce .products {
+	
+}
+
+@media (max-width: 770px){
+  .woocommerce.products, 
+  .woocommerce .products {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .woocommerce.products .product-button a, 
+  .woocommerce .products .product-button a {
+  	font-size: 13.5px;
+  }
+}
+
+@media (max-width: 620px) {
+  .related.products .products li { width: 33%; }
+  .woocommerce.single-product .related.products .product { margin-bottom: 15px; }
+
+}
+
+@media (max-width: 480px) {
+  .related.products .products li { width: 50%; }
+  .archive .products {
+  	margin-right: -15px;
+	margin-left: -15px;
+  }
+
+}
+
+/* Фильтрация товаров по цене */
+.price_slider_amount {
+	display: flex;
+	flex-direction: column;
+}
+
+.price_slider_amount .price_label {
+	order: -1;
+}
+
+/* Кол-во результатов */
+.product-result-count {
+	display: none;
+}
 
 /* Отступы для фильтров в мобилке */
 @media (max-width: 992px) {
@@ -8273,4 +8322,7 @@ object {
 	width: 100%;
   }
 }
+
+
+
 
