@@ -61,7 +61,7 @@ function leto_main_navigation() {
 		<?php if ( $show_menu_additions ) : ?>
 		<ul class="nav-link-right">
 			<li class="nav-link-tel nav-link-tel--desktop">
-				<a href="tel:79521353261">+7 (952) 135-32-61</a>
+				<a href="tel:89226048574">8 (922) 604-85-74</a>
 			</li>
 			<?php
 			$enable_search = get_theme_mod( 'leto_enable_search', 1 );

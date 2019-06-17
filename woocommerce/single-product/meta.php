@@ -22,7 +22,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 ?>
 <div class="product_meta">
-
+	
+	<a href="https://orhideyaplus.ru/how-to-buy/" style="margin-bottom: 15px; font-size: 20px; display: block;">Как купить?</a>
 	<?php do_action( 'woocommerce_product_meta_start' ); ?>
 
 	<?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
