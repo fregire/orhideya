@@ -295,3 +295,20 @@ function add_gallery_thumbnail_size($size){
 //     $size['crop']   = 0;
 //     return $size;
 // }
+
+
+
+// Деактивация стандартного виджета WC
+add_action( 'widgets_init', 'override_woocommerce_widgets', 15 );
+
+function override_woocommerce_widgets() {
+
+  if ( class_exists( 'WC_Widget_Layered_Nav_Filters' ) ) {
+    unregister_widget( 'WC_Widget_Layered_Nav_Filters' );
+ 
+    include_once( 'widgets/class-wc-widget-layered-nav-filters.php' );
+ 
+    register_widget( 'Custom_WC_Widget_Layered_Nav_Filters' );
+  }
+
+}

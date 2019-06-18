@@ -8323,6 +8323,24 @@ object {
   }
 }
 
+/* Активные фильтры */
+.widget_layered_nav_filters .chosen a {
+	display: flex;
+	align-items: center;
+}
+
+.widget_layered_nav_filters .chosen a:hover svg {
+	fill: #000;
+}
+
+.widget_layered_nav_filters .chosen a svg {
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	transition: fill .3s;
+	
+}
+
 
 
 
