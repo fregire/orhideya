@@ -97,7 +97,7 @@ function leto_mobile_menu() {
 			?>
 			</nav><!-- /.mobile-menu__navigation -->
 			<p>
-				<a href="tel:79521353261">+7 (952) 135-32-61</a>
+				<a href="tel:89226048574">8 (922) 604-85-74</a>
 			</p>
 			<p>
 				ТРЦ Мегаполис, 2 этаж, бутик А208<br>
