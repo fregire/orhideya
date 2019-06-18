@@ -8234,6 +8234,7 @@ object {
 
 
 
+
 /* Размер шрифтов */
 .woocommerce .primary-sidebar .widget .widget-title {
 	font-size: 20px;
@@ -8245,8 +8246,11 @@ object {
 }
 
 .widget_price_filter .price_slider_amount {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 
 .widget_price_filter .price_slider_amount .price_label {
@@ -8291,12 +8295,19 @@ object {
 
 /* Фильтрация товаров по цене */
 .price_slider_amount {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .price_slider_amount .price_label {
-	order: -1;
+	-webkit-box-ordinal-group: 0;
+	    -ms-flex-order: -1;
+	        order: -1;
 }
 
 /* Кол-во результатов */
@@ -8309,8 +8320,11 @@ object {
   .archive .widget-area {
 	margin-top: 30px;
 	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
   }
   .archive .widget-area section {
 	width: 50%;
@@ -8325,8 +8339,12 @@ object {
 
 /* Активные фильтры */
 .widget_layered_nav_filters .chosen a {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .widget_layered_nav_filters .chosen a:hover svg {
@@ -8337,10 +8355,22 @@ object {
 	width: 25px;
 	height: 25px;
 	margin-right: 5px;
+	-webkit-transition: fill .3s;
+	-o-transition: fill .3s;
 	transition: fill .3s;
 	
 }
 
 
+/* Сортировка товаров */
+@media (min-width: 992px){
+  .shop-filter-toolbar .hidden-xs {
+	width: 66.6666%;
+  }
+  .shop-filter-toolbar .col-xs-12.text-right {
+	width: 33.33333%;
+  }
+
+}
 
 
