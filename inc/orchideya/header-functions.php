@@ -100,7 +100,10 @@ function leto_mobile_menu() {
 				<a href="tel:89226048574">8 (922) 604-85-74</a>
 			</p>
 			<p>
-				ТРЦ Мегаполис, 2 этаж, бутик А208<br>
+				<a href="mailto:orchideyaplus@gmail.com">orchideyaplus@gmail.com</a>
+			</p>
+			<p>
+				ТРЦ Мегаполис, 2 этаж, бутик А-210<br>
 				8 Марта 198 
 			</p>
 			<p>
