@@ -8374,3 +8374,24 @@ object {
 }
 
 
+/* Логотип в шапке */
+.site-branding {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.site-branding__content {
+	width: auto;
+}
+
+.site-branding img {
+	width: auto;
+	height: 100%;
+	margin-right: 0;
+
+}
+
+.site-branding .custom-logo-link {
+	height: 48px;
+}
+
