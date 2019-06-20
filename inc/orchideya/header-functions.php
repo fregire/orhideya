@@ -54,6 +54,9 @@ function leto_main_navigation() {
 					<span><?php esc_html_e( 'Toggle menu', 'leto' ); ?></span>
 				</button>
 			</div>
+			<div class="header-mobile-menu__tip">
+				Чтобы открыть меню сайта, нажмите сюда
+			</div>
 		</div><!-- /.header-mobile-menu -->		
 
 

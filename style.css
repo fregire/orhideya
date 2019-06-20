@@ -8395,3 +8395,29 @@ object {
 	height: 48px;
 }
 
+
+/* Подсказка в мобильной версии */
+.header-mobile-menu { position: relative; }
+.header-mobile-menu__tip {
+	position: absolute;
+	width: 250px;
+	background: #43a7ff;
+	padding: .6em;
+	display: none;
+	left: -15px;
+	color: #fff;
+	font-size: 17px;
+}
+
+.header-mobile-menu__tip:after {
+	position: absolute;
+	top: -40px;
+	left: 10px;
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 20px solid transparent;
+	border-bottom: 20px solid #43a7ff;
+}
+

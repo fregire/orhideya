@@ -572,6 +572,19 @@
 		$( 'body' ).fitVids();
 	}
 
+
+	// Скрытие подсказки в шапке
+
+	function mobileTip(){
+		var tipShowed = localStorage.getItem('tipShowed');
+		var $mobileTip = $(".header-mobile-menu__tip");
+
+		if(!tipShowed) {
+			localStorage.setItem('tipShowed', 'true');
+			$mobileTip.delay(800).fadeIn(400).delay(2000).fadeOut();
+		}
+	}
+
 	/* Function init */
 	$doc.ready( function() {
 		sectionStretch();
@@ -591,6 +604,7 @@
 		//priceFilter();
 		selectFilterList();
 		modalQuantities();
+		mobileTip();
 	} );
 
 	$win.load( function() {
