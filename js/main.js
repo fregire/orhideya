@@ -581,7 +581,7 @@
 
 		if(!tipShowed) {
 			localStorage.setItem('tipShowed', 'true');
-			$mobileTip.delay(800).fadeIn(400).delay(2000).fadeOut();
+			$mobileTip.delay(800).fadeIn(400).delay(4000).fadeOut();
 		}
 	}
 
