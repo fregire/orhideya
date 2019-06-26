@@ -8433,3 +8433,9 @@ object {
 	border-bottom: 20px solid #43a7ff;
 }
 
+/* Галерея изображений */
+.woocommerce-product-gallery figure {
+	margin: 0;
+
+}
+
