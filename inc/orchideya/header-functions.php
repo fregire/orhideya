@@ -42,8 +42,10 @@ function leto_main_navigation() {
 		<nav id="site-navigation" class="main-navigation">
 			<?php
 				wp_nav_menu( array(
+					'items_wrap'	 => '<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" id="%1$s" class="%2$s">%3$s</ul>',
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
+					'walker'		 => new True_Walker_Nav_Menu()
 				) );
 			?>
 		</nav><!-- #site-navigation -->	
