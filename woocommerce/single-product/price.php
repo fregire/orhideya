@@ -22,6 +22,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 
 ?>
-<p itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) );?>">
-	<span itemprop="price"><?php echo $product->get_price_html(); ?></span>
-</p>
+<p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) );?>"><?php echo $product->get_price_html(); ?></p>
