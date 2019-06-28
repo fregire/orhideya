@@ -23,7 +23,10 @@ global $product;
 ?>
 <div class="product_meta">
 	
-	<a href="https://orhideyaplus.ru/how-to-buy/" style="margin-bottom: 15px; font-size: 20px; display: block;">Как купить?</a>
+	<a href="https://orhideyaplus.ru/how-to-buy/" style="font-size: 20px; display: block;">
+		Как купить?
+	</a>
+	<p style="font-size: 13px;">(На сайте представлена не вся одежда. С полным ассортиментом вы можете ознакомиться непосредственно в магазине)</p>
 	<?php do_action( 'woocommerce_product_meta_start' ); ?>
 
 	<?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
