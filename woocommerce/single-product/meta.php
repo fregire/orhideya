@@ -26,7 +26,8 @@ global $product;
 	<a href="https://orhideyaplus.ru/how-to-buy/" style="font-size: 20px; display: block;">
 		Как купить?
 	</a>
-	<p style="font-size: 13px;">(На сайте представлена не вся одежда. С полным ассортиментом вы можете ознакомиться непосредственно в магазине)</p>
+	<p style="font-size: 13px; margin-top: 15px; margin-bottom: 0;">*На сайте представлена не вся одежда. С полным ассортиментом вы можете ознакомиться непосредственно в магазине</p>
+	<p style="font-size: 13px;">*Наличие модели определенного цвета и размера уточняйте по телефону <a href="tel:89226048574">8 (922) 604-85-74</a> или WhatsApp</p>
 	<?php do_action( 'woocommerce_product_meta_start' ); ?>
 
 	<?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
