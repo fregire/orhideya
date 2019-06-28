@@ -151,7 +151,7 @@ function leto_scripts() {
 
 	wp_enqueue_script( 'leto-scripts', get_template_directory_uri() . '/js/plugins.js', array('jquery'),'20170711', true );
 
-	wp_enqueue_script( 'leto-main', get_template_directory_uri() . '/js/main.js', array('jquery', 'imagesloaded'), '20171108', true );
+	wp_enqueue_script( 'leto-main', get_template_directory_uri() . '/js/main.min.js', array('jquery', 'imagesloaded'), '20171108', true );
 
 	wp_enqueue_style( 'ionicons', get_template_directory_uri() . '/css/ionicons.min.css' );
 
