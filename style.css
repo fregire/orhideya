@@ -1426,6 +1426,7 @@ form.cart:after,
   transition: background-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .site-header__content {
+  position: relative;
   display: -ms-flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8408,17 +8409,23 @@ object {
 }
 
 
-/* Подсказка в мобильной версии */
-.header-mobile-menu { position: relative; }
-.header-mobile-menu__tip {
-	position: absolute;
-	width: 250px;
+/* Подсказка */
+
+.website-tip {
 	background: #43a7ff;
-	padding: .6em;
-	display: none;
-	left: -15px;
+	padding: .6em 1em;
 	color: #fff;
 	font-size: 17px;
+}
+
+/* Подсказка о мобильном меню */
+
+.header-mobile-menu { position: relative; }
+.header-mobile-menu__tip {
+	display: none;
+	width: 280px;
+	position: absolute;
+	left: -15px;
 }
 
 .header-mobile-menu__tip:after {
@@ -8431,6 +8438,16 @@ object {
 	height: 40px;
 	border: 20px solid transparent;
 	border-bottom: 20px solid #43a7ff;
+}
+
+
+/* Подсказка для шапки */
+
+.header-navigation__tip {
+	position: absolute;
+	right: -15px;
+	top: 100%;
+	width: 320px;
 }
 
 /* Галерея изображений */

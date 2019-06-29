@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<meta name="yandex-verification" content="7a7ab1f0abd34d5f" />
 	<?php wp_head(); ?>
 </head>
 
@@ -35,7 +36,7 @@
 			<div class="header-navigation header-floating">
 				<div class="container">
 					<div class="site-header__content">			
-					<?php do_action( 'leto_inside_header' ); ?>
+						<?php do_action( 'leto_inside_header' ); ?>
 					</div>
 				</div>
 			</div>
