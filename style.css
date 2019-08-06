@@ -8456,3 +8456,9 @@ object {
 
 }
 
+/* Шапка */
+.site-branding img,
+.header-navigation.header-floating.floating .site-branding img {
+	max-width: 100%;
+}
+
