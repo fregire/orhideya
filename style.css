@@ -8462,3 +8462,6 @@ object {
 	max-width: 100%;
 }
 
+.site-branding__content {
+	display: none;
+}
