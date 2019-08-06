@@ -8462,6 +8462,27 @@ object {
 	max-width: 100%;
 }
 
+.site-branding {
+	width: 220px;
+	max-width: 220px;
+	border-radius: 60px;
+	background: rgb(128, 22, 55);
+}
+
 .site-branding__content {
 	display: none;
+}
+
+.nav-link-right {
+	margin-left: 0;
+}
+
+.nav-link-right > li:nth-child(2) {
+	margin-right: 0;
+}
+
+@media (max-width: 993px){
+	.nav-link-right {
+		display: none;
+	}
 }
